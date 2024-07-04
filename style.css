@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: auto;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.wrapper {
+    width: fit-content;
+    padding: 0rem;
+    border-radius: 1rem;
+    
+}
+
+.container {
+    display: flex;
+    width: auto;
+    box-shadow: 5px 5px 50px rgba(88, 119, 155, 0.701);
+    border-radius: 1rem;
+}
+
+.blue {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom , hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+
+.seven {
+    text-align: center;
+    padding: 35px 40px;
+    border-radius: 100%;
+    width: fit-content;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom , hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white {
+    width: 250px;
+    height: 350px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    align-items: center;
+}
+
+.white h2 {
+    align-self: start;
+}
+
+.summer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.btn {
+    text-align: center;
+}
+
+.red {
+    background: hsla(0, 100%, 67%, 0.478);
+    color: hsl(0, 100%, 67%);
+    padding: .5rem;
+    border-radius: .3rem;
+}
+.yellow {
+    background: hsla(39, 100%, 56%, 0.478);
+    color: hsl(39, 100%, 56%);
+    padding: .5rem;
+    border-radius: .3rem;
+}
+.green {
+    background: hsla(166, 100%, 37%, 0.478);
+    color: hsl(166, 100%, 37%);
+    padding: .5rem;
+    border-radius: .3rem;
+}
+.purple {
+    background: hsla(234, 85%, 45%, 0.478);
+    color: hsl(234, 85%, 45%);
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+span {
+    color: #00000078;
+}
+
+.btn {
+    padding: .7rem 4rem;
+    border-radius: 3rem;
+    background: hsl(252, 100%, 67%);
+    color: aliceblue;
+}
+/* Mobile View */
+@media screen and (min-width:360px) and (max-width:870px)
+{
+body {
+    max-width: auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    min-height: auto;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper {
+    background-color: white;
+    width: auto;
+    padding: 0rem;
+    border-radius: unset;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    box-shadow: none;
+}
+
+.blue {
+    width: auto;
+    border-radius: unset;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    background-color: blue;
+    height: 350px;
+    border-top-right-radius: 0rem;
+}
+
+.white {
+    width: auto;
+    height: 500px;
+    padding: 2rem;
+}
+
+.summer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+}    
